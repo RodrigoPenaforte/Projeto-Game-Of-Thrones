@@ -1,0 +1,87 @@
+body {
+    background-color: #1b1b1b;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+input[type="text"] {
+    width: 300px;
+    border: 1px solid #000000;
+    border-radius: 8px 8px 3px 8px;
+    padding: 5px;
+    color: #000000;
+    box-shadow:
+        0 0 1px #757272,
+        0 0 2px #5a5658,
+        0 0 3px #ffffff,
+        0 0 4px #aaaaaa;
+    transition: all 0.5s ease-in-out;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 5px solid #726c6c;
+    box-shadow:
+        0 0 1px #757272,
+        0 0 2px #5a5658,
+        0 0 3px #ffffff,
+        0 0 4px #000000;
+}
+
+#buscar-nome {
+    background-color: #00315f;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow:
+        0 0 1px #757272,
+        0 0 2px #5a5658,
+        0 0 3px #ffffff,
+        0 0 4px #0c0000;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-left: 10px;
+}
+
+#buscar-nome:hover {
+    background-color: #ffffff;
+    color: #808080;
+    border: 2px solid #857e82;
+    box-shadow:
+        0 0 1px #757272,
+        0 0 2px #5a5658,
+        0 0 3px #ffffff,
+        0 0 4px #000000;
+}
+
+p {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    margin-top: 10%;
+    color: white;
+}
+
+img {
+    display: block;
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 30%;
+}
